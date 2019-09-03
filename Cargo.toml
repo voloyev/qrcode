@@ -1,0 +1,10 @@
+[package]
+name = "qrcode"
+version = "0.1.0"
+authors = ["Volodymyr Yevtushenko <voloyev@vivaldi.net>"]
+edition = "2018"
+
+[dependencies]
+qrcode = "0.8"
+clap = "*"
+image = "*"
