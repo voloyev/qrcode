@@ -34,5 +34,6 @@ fn main() {
     let code = QrCode::new(url).unwrap();
     let image = code.render::<Luma<u8>>().build();
 
+
     image.save(location).unwrap();
 }
